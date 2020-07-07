@@ -1,4 +1,4 @@
-package com.JCG.model;
+package com.example.batch.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

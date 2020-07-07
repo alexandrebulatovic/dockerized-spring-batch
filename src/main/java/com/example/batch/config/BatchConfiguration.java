@@ -1,4 +1,4 @@
-package com.JCG.config;
+package com.example.batch.config;
 
 import javax.persistence.EntityManagerFactory;
 
@@ -24,8 +24,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
-import com.JCG.model.Data;
-import com.JCG.model.DataRepository;
+import com.example.batch.dao.DataRepository;
+import com.example.batch.model.Data;
 
 @Configuration
 @EnableBatchProcessing
