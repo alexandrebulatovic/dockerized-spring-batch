@@ -11,9 +11,10 @@ These data are imported into the database and logged in the console.
 In order to run the program, you need [Docker](https://www.docker.com/products/docker-desktop).
 
 ## How to use : 
-1) Build the image : 
+1) Open a terminal (for instance bash or powershell) in the "Dockerizing" folder
+2) Build the image : 
 `docker build --tag springbatchexample .`
-2) Run the image in a new container : 
+3) Run the image in a new container : 
 `docker run --publish 8000:8080 --name myContainer springbatchexample`
-3) Remove the container : 
+4) Remove the container : 
 `docker rm --force myContainer`
